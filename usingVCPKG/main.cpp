@@ -30,7 +30,7 @@ int main()
 #endif
 
     // Set the model file path based on the executable directory
-    std::string model_path = exe_dir + "/models/llama-2-7b.Q4_K_M.gguf";
+    std::string model_path = exe_dir + "/models/llongma-2-7b.Q4_K_M.gguf";
 
     llama_model* model = llama_load_model_from_file(model_path.c_str(), model_params);
     if (!model) {

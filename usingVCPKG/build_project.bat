@@ -11,5 +11,5 @@ cmake -B build -S .
 
 
 echo.
-echo ✅ Build complete.
+echo Build complete.
 pause
