@@ -15,7 +15,7 @@ else(WIN32)
 endif(WIN32)
 project(MyLlamaApp)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 find_package(llama CONFIG REQUIRED)
 
